@@ -1,0 +1,36 @@
+.navbar {
+  height: 3rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  color:blue;
+  background-color: rgb(23, 98, 163);
+}
+
+.nav-link:hover {
+  color: orange;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: cornflowerblue;
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.d-flex-custom {
+  flex-direction: column;
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 10px;
+  color:orange;
+}
+
+.display-card {
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.display-card:is(:hover) {
+  transform: scale(1.04);
+  transition: transform 0.8s ease-out;
+}

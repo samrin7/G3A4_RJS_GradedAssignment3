@@ -1,0 +1,16 @@
+.homePageOption {
+  padding: 300px;
+  color:black;
+ 
+}
+
+.optionCard {
+  color: orange;
+  text-decoration: none !important;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.optionCard:hover {
+  transform: scale(1.02);
+  transition: transform 0.5s ease;
+}
